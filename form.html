@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <table  border="1">
+            <tr>
+                <td>
+                    <label for="image">Resim:</label>
+                </td>
+                <td>
+                    <input type="file" id="image" name="image" accept="image/png, image/jpeg">
+                </td>
+            </tr>
+            <tr>
+                <td>Adi Soyadi:  </td>
+                <td><colspan="2" input type="text" name="adi" id="" size="50" placeholder="Adi Soyadi*" required></colspan></td>
+            </tr>
+            <tr>
+                <td>Dogum Tarihi: </td>
+                <td><input type="datetime" name="Dogum Tarihi" id=""></td>
+            </tr>
+            <tr>
+                <td>Cinsiyet*</td>
+                <td>
+                    <input type="radio" name="cinsiyet" value="Erkek"> Erkek
+                    <input type="radio" name="cinsiyet" value="Kadın"> Kadın
+                </td>
+            </tr>
+            <tr>
+                <td>E-Posta Adresi*</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td>Telefon*</td>
+                <td><input type="tel" name="telefon" placeholder="(___)(_______)"></td>
+            </tr>
+            <tr>
+                <td>Mezuniyet Durumu</td>
+                <td>
+                    <input type="radio" name="cinsiyet" value="Ilkokul"> Ilkokul
+                    <input type="radio" name="cinsiyet" value="Ortaokul"> Ortaokul
+                    <input type="radio" name="cinsiyet" value="Lise"> Lise
+                    <input type="radio" name="cinsiyet" value="Universite"> Universite
+                </td>   
+            </tr>
+            <tr>
+                <td>Ingilizce Seviyeniz</td>
+                <td>
+                    <select class="form-select" id="education" name="education" required>
+                        <option value="">Seçiniz</option>
+                        <option value="Baslangic">Baslangic</option>
+                        <option value="Orta">Orta</option>
+                        <option value="Ileri">Ileri</option>
+                    </select>  
+                 </td>  
+            </tr>
+            <tr>
+                <td>Calismak Istediginiz Pozisyon</td>
+                <td>
+                    <fieldset>
+                        <input type="radio" name="" id="">Bilgi Islem 
+                        <br>
+                        <input type="radio" name="" id="">Muhasebe
+                        <br>
+                        <input type="radio" name="" id="">Pazarlama
+                        <br>
+                        <input type="radio" name="" id="">Asistan
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>Askerlik Durumu</td>
+                <td>
+                    <select class="form-select" id="education" name="education" required>
+                        <option value="">Seçiniz</option>
+                        <option value="Baslangic">Baslangic</option>
+                        <option value="Orta">Orta</option>
+                        <option value="Ileri">Ileri</option>
+                    </select>  
+                 </td>  
+            </tr>
+            <tr>
+                <td>Ek Bilgi</td>
+                <td>
+                    <textarea class="form-input" id="message" name="message" rows="5" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="BASVUR"></td>
+            </tr>
+        </table>
+        </form>            
+</body>
+</html>

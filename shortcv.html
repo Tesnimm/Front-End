@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kendini Tanıtma Sayfası</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .navbar-brand img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        .navbar.bg-body-tertiary {
+            background-color: hsl(200, 40%, 5%) !important;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: bold;
+            font-size: 18px;
+            font-style: bold;
+        }
+
+        #AboutMe {
+            padding: 50px 0;
+            background-color: hsl(200, 20%, 2%);
+            color: white;
+        }
+
+        #AboutMe .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #AboutMe .card {
+            background-color: hsl(200, 20%, 10%);
+            color: white;
+        }
+
+        #AboutMe img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #AboutMe .card-title {
+            font-size: 28px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #AboutMe .card-text {
+            font-size: 18px;
+            text-align: justify;
+        }
+
+        .experience {
+            background-color: hsl(269, 90%, 12%);
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        .experience h3 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .experience ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .experience ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .footer {
+            background-color: hsl(200, 40%, 5%);
+            padding: 20px;
+            text-align: center;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="kendini tanit logo.jpg" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#AboutMe" style="color: white;">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Experience" style="color: white;">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Search" style="color: white;">Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="AboutMe" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="Ikamet vesikalik.jpg" class="img-fluid" alt="Görsel">
+                </div>
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h6 class="card-title">I'm Tesnim Stazimiri</h6>
+                            <hr>
+                            <p class="card-text">Highly motivated and dedicated computer engineering student
+                                with a strong passion for technology and a drive to make a positive impact in
+                                the field. I am passionate about staying up to date with the latest advancements
+                                in the computer engineering field. I actively participate in workshops, attend
+                                technology conferences, and engage in self-directed learning to expand my knowledge
+                                and skills. I am always excited to explore emerging technologies and leverage them
+                                to create innovative solutions that address real-world challenges. In addition to my
+                                academic pursuits, I have sought opportunities to gain practical experience through
+                                internships and personal projects. These experiences have allowed me to apply my knowledge
+                                and skills in real-world scenarios, further enhancing my problem-solving abilities and
+                                fostering a deep understanding of industry practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Experience" class="experience">
+        <div class="container">
+    
+            <h3 class="mb-4 font-weight-bold text-center">JOB EXPERIENCE</h3>
+            <div class="other-components">
+                <ul class="mb-5 text-center">
+                    <li>TRANSCRIPTOR <br>
+                        February 2023 / March 2023 <br>
+                        MINBER / TIRAN,ALBANIA
+                    </li>
+                    <li>PRESIDENT OF BALKAN STUDENTS IN <br>
+                        CANAKKALE <br>
+                        October 2021 / In progress <br>
+                        CANAKKALE,TURKEY
+                    </li>
+                    <li>COORDINATOR <br>
+                        March 2023 / May 2023 <br>
+                        ORBIT/NEXUS / TIRAN,ALBANIA
+                    </li>
+                </ul>
+                <h3 class="mb-4 text-center">LANGUAGES</h3>
+                <ul class="text-center">
+                    <li>English - Advanced </li>
+                    <li>Albanian - Native </li>
+                    <li>Turkish - Fluent</li>
+                    <li>Arabic - Beginner</li>
+                </ul>
+            </div>
+    
+        </div>
+    </section>
+
+
+    <div class="footer">
+        <p>Telefon: +90 534 652 73 79</p>
+        <p>E-posta: tesnimastrazimiri@gmail.com</p>
+        <p>Barbaros Mahallesi,Kizilirmak Sok,No:06,Canakkale,Merkez,17000</p>
+    </div>
+
+</body>
+
+</html>
+

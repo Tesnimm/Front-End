@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Effect With CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #300247;
+        }
+        h1 {
+            font-family: "Inconsolata", Consolas, monospace;
+            font-size: 4em;
+            color: #d74cb9;
+            text-align: center;
+            position: relative;
+            white-space: nowrap;
+        }
+        h1::after {
+            content: '|';
+            position: absolute;
+            right: 0;
+            color: white;
+            background-color: #410439;
+            width: 100%;
+            animation: typing 5s steps(22) infinite, line 1s infinite;
+        }
+        @keyframes typing {
+            0% {
+                content: '';
+            }
+            30% {
+                content: 'Hi! I\'m a Human!';
+            }
+            35% {
+                content: 'Hi! I\'m a Human';
+            }
+            40% {
+                content: 'Hi! I\'m a Huma';
+            }
+            45% {
+                content: 'Hi! I\'m a Hum';
+            }
+            50% {
+                content: 'Hi! I\'m a Hu';
+            }
+            55% {
+                content: 'Hi! I\'m a H';
+            }
+            60% {
+                content: 'Hi! I\'m a ';
+            }   
+            65% {
+                content: 'Hi! I\'m a W';
+            }
+            70% {
+                content: 'Hi! I\'m a Wr';
+            }
+            75% {
+                content: 'Hi! I\'m a Wri';
+            }
+            80% {
+                content: 'Hi! I\'m a Writ';
+            }
+            85% {
+                content: 'Hi! I\'m a Write';
+            }
+            80% {
+                content: 'Hi! I\'m a Writer';
+            }
+            95% {
+                content: 'Hi! I\'m a Writer!';
+            }
+            100% {
+                content: 'Hi! I\'m a Writer!!';
+            }
+            
+        }
+       
+        @keyframes line {
+            50% {
+                color: transparent;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1></h1>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
